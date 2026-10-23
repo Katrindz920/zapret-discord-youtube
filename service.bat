@@ -94,7 +94,7 @@ echo   ----------------------------------------
 echo      0. Exit
 echo.
 
-set /p menu_choice=   Select option (0-12): 
+set /p menu_choice=   Select option (0-12): 12
 
 if "%menu_choice%"=="1" goto service_install
 if "%menu_choice%"=="2" goto service_remove
